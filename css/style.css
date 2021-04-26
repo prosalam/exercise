@@ -1,0 +1,365 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+body{
+	font-family: sans-serif, arial;
+	transition: all .5s ease;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: orange;
+}
+ul{
+	list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6{
+	/*margin: 15px 0px;*/
+}
+p{
+	margin: 10px 0px;
+	line-height: 150%;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+	float: right;
+}
+.clear{
+	overflow: hidden;
+}
+
+/*typography finish........................................................................*/
+
+/*header part start..............................*/
+
+.full_wrapper{
+	width: 100%;
+}
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+.header_bg{
+	background: #656565;
+}
+.header_section{
+    background: #656565;
+    padding:15px 0px;
+}
+.header_section>.header_left{
+    width: 400px;
+}
+.header_left img{
+    width: 60px;
+    height: 50px;
+    margin-right: 10px;
+    float: left;
+    margin-top: 4px;
+}
+.header_left h2{
+   color: white;
+   font-size: 25px;
+   margin-top: 12px;
+}
+
+.header_right{
+
+}
+.header_right ul{
+
+}
+.header_right ul li {
+  float: left;
+
+}
+.header_right ul li a {
+    background: #463f3f;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    color: white;
+    border-radius: 50%;
+    margin: 8px 0px 0px 5px;
+    transition: all .7s ease;
+}
+.header_right ul li a:hover{
+  background: white;
+  color: black;
+}
+.same_header_icon {
+    margin: 8px 0px 0px 9px;
+    display: inline-block;
+}
+
+/*header part finish.........................................................................*/
+
+/*fixed social icon part start..........................*/
+
+.fixed_icon {
+    position: fixed;
+    right: 19px;
+    top: 222px;
+}
+.fixed_icon li{
+    margin-bottom: 10px;
+}
+.fixed_icon li a {
+    background: white;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.fixed_icon li a :hover{
+  background: white;
+  padding: 4.5px;
+  border-radius: 50%;
+  transition: all .7s ease;
+}
+.fixed_icon li a img {
+    width: 28px;
+    height: 28px;
+}
+
+/*fixed social icon part finish..............................................................*/
+
+/*navigation part start................................*/
+
+.nav_bg{
+    background: #3C3C3C;
+    border-bottom: 5px solid #2E2E2E;
+    border-top: 5px solid #2E2E2E;
+}
+.menu_section{
+  height: 42px;
+}
+.menu_section>ul{
+   display: block;
+}
+.menu-toggle {
+    display: inline-block;
+    font-size: 150%;
+    color: white;
+    margin-top: .6%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+.menu_section>ul>li {
+    float: left;
+    background: #3C3C3C;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #3f4c3f;
+    position: relative;
+}
+.menu_section>ul>li:first-child{
+	border-left: none;
+}
+.menu_section>ul>li:last-child{
+	border-right: none;
+}
+.menu_section>ul>li>a{
+	padding: 12px 15px;
+	display: block;
+	color: white;
+}
+.menu_section>ul>li>a:hover{
+	color: black;
+	background: white;
+	transition: all .8s ease;
+}
+
+.menu_section>ul>li>ul{
+   
+   position: absolute;
+   left: -99999px;
+   z-index: 101;
+
+}
+.menu_section>ul>li:hover ul{
+   left: 0px;
+}
+.menu_section>ul>li>ul>li{
+   background: black;
+   width: 200px;
+   border-top: 1px solid #121212;
+   border-bottom: 1px solid #0a0a0a;
+}
+.menu_section>ul>li>ul>li:first-child{
+	border-top:none;
+}
+.menu_section>ul>li>ul>li:last-child{
+	border-bottom: none;
+}
+.menu_section>ul>li>ul>li>a{
+	color: white;
+	padding: 12px 15px;
+	display: block;
+	transition: all .8s ease;
+}
+.menu_section>ul>li>ul>li>a:hover{
+	color: black;
+	background: orange;
+}
+
+.search_box {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #464141;
+    width: 250px;
+    color: blue;
+    margin-top: 5px;
+}
+
+.search_btn {
+    padding: 4px 12px;
+    background: #333333;
+    color: white;
+    font-size: 16px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+/*navigation part finish..................................................................*/
+
+/*slider part start.................*/
+
+.slider_bg{
+    background: #DDDDDD;
+}
+.slider_section{
+  margin: 25px 0px;
+  z-index: -101;   
+}
+.theme-light.slider-wrapper{
+  background: #1f1717;
+}    
+
+/*slider part finish....................................................................*/
+
+/*contant part start...................*/
+
+.contant_bg{
+   background: #DDDDDD;
+}
+.contant_section{
+   width: 900px;
+   margin-right: 20px;
+   float: left;
+   background: #fff;
+   padding: 15px 10px;
+}
+.contant_left{
+   width: 440px;
+   float: left;
+   margin-right: 20px;
+}
+.contant_left h2,.contant_right h2 {
+    color: #807b7b;
+    font-size: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ded9d9;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+.same_contant{
+  padding-bottom: 60px;
+}
+.same_contant img {
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding: 5px;
+    background: #efebeb;
+    border: 1px solid #bfbaba;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px 1px #615c5c;
+}
+.contant_group{
+
+}
+.contant_group h3 {
+    color: #7d7c7c;
+    font-size: 18px;
+}
+.contant_group p {
+    color: #888484;
+    font-size: 16px;
+}
+.contant_group a {
+    float: right;
+    border: 1px solid #9e7979;
+    padding: 8px 4px;
+    background: #616161;
+    color: white;
+    border-radius: 3px;
+    transition: all .8s ease;
+    font-size: 13px;
+}
+.contant_group a:hover{
+  background: #dcdcdc;
+  color: black;
+}
+.contant_right{
+  width: 440px;
+  float: right;
+}
+.contant_right h2{
+
+}
+
+
+/*sidebar section start...............................*/
+
+.sidebar_section{
+   width: 260px;
+   float: right;
+}
+.same_sidebar{
+  margin-bottom: 16.67px;
+}
+.same_sidebar h2 {
+    background: #544d4d;
+    color: white;
+    padding: 4px 9px;
+}
+.same_sidebar ul{
+    background: white;
+}
+.same_sidebar ul li {
+    padding: 7px 9px;
+    border-bottom: 1px dotted #d4d1d1;
+}
+.same_sidebar ul li a{
+
+}
+
+.same_contact {
+    padding: 7px 79px 7px 6px;
+    border: 1px solid #a29999;
+}
+
+
+/*contant part finish...................................................................*/
+
+/*footer part start.......................*/
+
+.footer_bg{
+    background: #656565;
+    padding: 15px 0px;
+}
+.footer {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+/*footer part finish...................................................................*/

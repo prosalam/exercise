@@ -1,0 +1,33 @@
+.contact_page{
+	background: white;
+}
+.contact_page h2 {
+    color: #21a4cc;
+    text-align: center;
+    padding: 15px 0px 10px 0px;
+    margin-bottom: 30px;
+    border-bottom: 2px dotted black;
+}
+.first_td {
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+}
+.second_td {
+    padding: 12px 120px 12px 10px;
+    margin: 0px 50px 13px 53px;
+    color: #08053e;
+}
+.table{
+	margin: 0 auto;
+}
+.contant_submit {
+    padding: 10px 38px;
+    font-size: 17px;
+    background: #ada8a8;
+    cursor: pointer;
+    transition: all .7s ease;
+}
+.contant_submit:hover{
+	background: white;
+}
